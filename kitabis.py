@@ -41,7 +41,7 @@ class Mate_lampu():
             saapa=int(input('[?] jumlh: '))
             print('[!] delay 4 menit :V')
             for i in range(1,saapa+1):
-                req.headers.update({'user-agent':random.choice(self.ua)});ceko = req.post('https://core.ktbs.io/v2/user/registration/temp', json = {'full_name':'Maoundis','user_id':self.goblok,'user_id_type':self.tolol})
+                req.headers.update({'user-agent':random.choice(self.ua)});ceko = req.post('seseorang mencoba', json = {'full_name':'Maoundis','user_id':self.goblok,'user_id_type':self.tolol})
                 if ceko.status_code == 200:
                     print('  %s[%d] pesan: %ssuskes nyepam gan hehe :"c ' % (w,i,c))
                 else:
